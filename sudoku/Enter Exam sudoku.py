@@ -2,7 +2,7 @@ from random import randint
 import copy
 import pickle
 
-notmylist = []
+notmylist = [1]
 file = open("load.pkl", "rb") # "wb"
 notmylist = pickle.load(file) # pickle.dump(mylist, file)
 file.close()
